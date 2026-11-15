@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+*.tmp
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data: not committed (see data/README.md). The fitted model IS committed so the
+# Streamlit app runs on deployment without retraining.
+data/*.csv
+data/*.zip
+!data/.gitkeep
+
+# Secrets
+.env
+.streamlit/secrets.toml

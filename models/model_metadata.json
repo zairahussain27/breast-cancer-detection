@@ -1,0 +1,270 @@
+{
+  "model_name": "SVM",
+  "threshold": 0.18,
+  "seed": 42,
+  "features": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave_points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave_points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "radius_worst",
+    "texture_worst",
+    "perimeter_worst",
+    "area_worst",
+    "smoothness_worst",
+    "compactness_worst",
+    "concavity_worst",
+    "concave_points_worst",
+    "symmetry_worst",
+    "fractal_dimension_worst"
+  ],
+  "feature_stats": {
+    "radius_mean": {
+      "min": 6.981,
+      "max": 28.11,
+      "median": 13.34,
+      "benign_median": 12.18,
+      "malignant_median": 17.42
+    },
+    "texture_mean": {
+      "min": 9.71,
+      "max": 39.28,
+      "median": 18.9,
+      "benign_median": 17.395,
+      "malignant_median": 21.59
+    },
+    "perimeter_mean": {
+      "min": 43.79,
+      "max": 188.5,
+      "median": 86.1,
+      "benign_median": 77.745,
+      "malignant_median": 114.5
+    },
+    "area_mean": {
+      "min": 143.5,
+      "max": 2501.0,
+      "median": 551.1,
+      "benign_median": 458.54999999999995,
+      "malignant_median": 947.8
+    },
+    "smoothness_mean": {
+      "min": 0.05263,
+      "max": 0.1634,
+      "median": 0.09514,
+      "benign_median": 0.089785,
+      "malignant_median": 0.1012
+    },
+    "compactness_mean": {
+      "min": 0.01938,
+      "max": 0.3454,
+      "median": 0.09218,
+      "benign_median": 0.072285,
+      "malignant_median": 0.1317
+    },
+    "concavity_mean": {
+      "min": 0.0,
+      "max": 0.4268,
+      "median": 0.05835,
+      "benign_median": 0.035185,
+      "malignant_median": 0.1478
+    },
+    "concave_points_mean": {
+      "min": 0.0,
+      "max": 0.2012,
+      "median": 0.0325,
+      "benign_median": 0.022449999999999998,
+      "malignant_median": 0.08632
+    },
+    "symmetry_mean": {
+      "min": 0.106,
+      "max": 0.304,
+      "median": 0.1779,
+      "benign_median": 0.17025,
+      "malignant_median": 0.1909
+    },
+    "fractal_dimension_mean": {
+      "min": 0.04996,
+      "max": 0.09744,
+      "median": 0.0613,
+      "benign_median": 0.061274999999999996,
+      "malignant_median": 0.0613
+    },
+    "radius_se": {
+      "min": 0.1115,
+      "max": 2.873,
+      "median": 0.3249,
+      "benign_median": 0.262,
+      "malignant_median": 0.5539
+    },
+    "texture_se": {
+      "min": 0.3602,
+      "max": 4.885,
+      "median": 1.127,
+      "benign_median": 1.1095000000000002,
+      "malignant_median": 1.15
+    },
+    "perimeter_se": {
+      "min": 0.757,
+      "max": 21.98,
+      "median": 2.281,
+      "benign_median": 1.8479999999999999,
+      "malignant_median": 3.767
+    },
+    "area_se": {
+      "min": 6.802,
+      "max": 542.2,
+      "median": 24.72,
+      "benign_median": 19.97,
+      "malignant_median": 60.41
+    },
+    "smoothness_se": {
+      "min": 0.001713,
+      "max": 0.03113,
+      "median": 0.006294,
+      "benign_median": 0.006451,
+      "malignant_median": 0.006174
+    },
+    "compactness_se": {
+      "min": 0.002252,
+      "max": 0.1354,
+      "median": 0.02015,
+      "benign_median": 0.01663,
+      "malignant_median": 0.02791
+    },
+    "concavity_se": {
+      "min": 0.0,
+      "max": 0.396,
+      "median": 0.02509,
+      "benign_median": 0.018375000000000002,
+      "malignant_median": 0.03763
+    },
+    "concave_points_se": {
+      "min": 0.0,
+      "max": 0.05279,
+      "median": 0.01087,
+      "benign_median": 0.0086825,
+      "malignant_median": 0.01432
+    },
+    "symmetry_se": {
+      "min": 0.007882,
+      "max": 0.07895,
+      "median": 0.01873,
+      "benign_median": 0.018785000000000003,
+      "malignant_median": 0.01829
+    },
+    "fractal_dimension_se": {
+      "min": 0.0008948,
+      "max": 0.02984,
+      "median": 0.003136,
+      "benign_median": 0.0027860000000000003,
+      "malignant_median": 0.003739
+    },
+    "radius_worst": {
+      "min": 7.93,
+      "max": 36.04,
+      "median": 14.91,
+      "benign_median": 13.34,
+      "malignant_median": 20.88
+    },
+    "texture_worst": {
+      "min": 12.02,
+      "max": 49.54,
+      "median": 25.41,
+      "benign_median": 22.86,
+      "malignant_median": 29.89
+    },
+    "perimeter_worst": {
+      "min": 50.41,
+      "max": 251.2,
+      "median": 97.59,
+      "benign_median": 86.14,
+      "malignant_median": 137.9
+    },
+    "area_worst": {
+      "min": 185.2,
+      "max": 4254.0,
+      "median": 680.6,
+      "benign_median": 546.7,
+      "malignant_median": 1320.0
+    },
+    "smoothness_worst": {
+      "min": 0.07117,
+      "max": 0.2226,
+      "median": 0.1303,
+      "benign_median": 0.123,
+      "malignant_median": 0.1419
+    },
+    "compactness_worst": {
+      "min": 0.02729,
+      "max": 1.058,
+      "median": 0.2119,
+      "benign_median": 0.171,
+      "malignant_median": 0.3568
+    },
+    "concavity_worst": {
+      "min": 0.0,
+      "max": 1.252,
+      "median": 0.2264,
+      "benign_median": 0.13824999999999998,
+      "malignant_median": 0.4107
+    },
+    "concave_points_worst": {
+      "min": 0.0,
+      "max": 0.291,
+      "median": 0.09749,
+      "benign_median": 0.07419,
+      "malignant_median": 0.182
+    },
+    "symmetry_worst": {
+      "min": 0.1565,
+      "max": 0.6638,
+      "median": 0.281,
+      "benign_median": 0.26775,
+      "malignant_median": 0.3138
+    },
+    "fractal_dimension_worst": {
+      "min": 0.05504,
+      "max": 0.2075,
+      "median": 0.07957,
+      "benign_median": 0.07691500000000001,
+      "malignant_median": 0.08701
+    }
+  },
+  "best_params": {
+    "C": 100,
+    "class_weight": "balanced",
+    "gamma": 0.001
+  },
+  "target_recall": 0.98,
+  "sklearn_version": "1.8.0",
+  "split_sizes": {
+    "train": 341,
+    "val": 114,
+    "test": 114
+  },
+  "class_names": {
+    "0": "Benign",
+    "1": "Malignant"
+  },
+  "shap_available": false,
+  "data_source": "UCI WDBC (local original CSV)",
+  "python_version": "3.12.0",
+  "numpy_version": "2.2.0",
+  "pandas_version": "2.2.3"
+}
